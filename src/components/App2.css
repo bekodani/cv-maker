@@ -1,0 +1,170 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.general-container {
+  background-color: #08090a;
+  width: 100%;
+}
+
+
+ #avatar {
+  width: 150px;
+  margin-left: 25px;
+  border-radius: 50%;
+  background-color: #a7a2a9 ;
+  border: 3px solid #575a5e;
+}
+
+.avatar-wrapper {
+  display: block;
+  height: 150px;
+}
+
+
+.contact-info {
+  margin-top: 1rem;
+}
+
+.personal-wrapper {
+  background-color: rgb(53, 53, 53);
+  margin-bottom: 2rem;
+}
+
+
+
+.other-info {
+  background-color: white;
+}
+
+.name-wrapper {
+  background-color: tomato;
+  text-align: center;
+}
+
+.nameTag {
+  color: #a7a2a9;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+
+
+.titleTag {
+  color: #a7a2a9;
+  font-weight: 300;
+  letter-spacing: 3px;
+  margin-top: 1rem;
+}
+
+
+
+
+.page-container {
+  width: 50%;
+  border: 3px solid blue;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.icon-text-container {
+  display: grid;
+  grid-template-columns: 50px 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "address-icon address-text address-text address-text"
+    "email-icon email-text email-text email-text"
+    "phone-icon phone-text phone-text phone-text";
+}
+
+.address-icon { grid-area: address-icon; }
+
+.address-text { grid-area: address-text; }
+
+.email-icon { grid-area: email-icon; }
+
+.email-text { grid-area: email-text; }
+
+.phone-icon { grid-area: phone-icon; }
+
+.phone-text { grid-area: phone-text; }
+
+.icon, .text {
+  color: #a7a2a9;
+}
+
+.text {
+  text-align: left;
+}
+
+.header-wrapper {
+  background-color: #a7a2a9;
+  color: #08090a;
+  text-align: center;
+  padding: 0.5rem;
+  font-weight: 700;
+}
+
+
+.exp-info, .edu-info, .about-info {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  width: 85%;
+}
+
+.exp-date-wrapper, .edu-date-wrapper {
+  background-color: #222823;
+  width: 220px;
+  padding: 0.5rem;
+  color: #f4f7f5;
+  font-weight: 600;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.exp-date, .edu-date {
+  display: inline;
+}
+
+.positionTag {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.companyTag {
+  font-weight: 600;
+}
+
+.detailTag, .aboutText {
+  width: 85%;
+  text-align: justify;
+}
+
+.exp-text {
+  margin-bottom: 8px;
+}
+
+.aboutTag {
+  text-align: center;
+}
+
+
+ */

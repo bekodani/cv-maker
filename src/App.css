@@ -1,0 +1,263 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-print-color-adjust: exact;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+@media only screen and (min-width: 600px) {
+  .outer-container {
+/*     margin-left: 10rem;
+    margin-right: 10rem; */
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+
+.page-container {
+  width: 100%;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid rgba(214, 214, 214, 0.2)
+}
+
+.gen-info-header {
+  background-color: #126e82;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.name-wrapper {
+  color: #126e82;
+  text-align: center;
+}
+
+.nameTag {
+  color: #d8e3e7;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.titleTag {
+  color: #d8e3e7;
+  font-weight: 300;
+  letter-spacing: 3px;
+  margin-top: 1rem;
+}
+
+.info-wrapper {
+  position: absolute;
+  width: 280px;
+  padding: 0.5rem;
+}
+
+.icon-wrapper, .text-wrapper {
+  display: inline-block;
+}
+
+.icon-wrapper {
+  margin-right: 1rem;
+}
+
+.text-wrapper {
+  font-size: 0.8rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+ul {
+  list-style-type: none;
+  color: #d8e3e7;
+}
+
+.header-wrapper {
+  background-color: #126e82;
+  color: #d8e3e7;
+  text-align: left;
+  padding: 0.3rem;
+  padding-left: 0.8rem;
+  font-weight: 700;
+  width: 250px;
+  margin-bottom: 1rem;
+}
+
+.desing-line {
+  width: 95%;
+  height: 3px;
+  background-color: #126e82;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.exp-info, .edu-info, .about-info{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  width: 85%;
+}
+
+.exp-date-wrapper, .edu-date-wrapper {
+  background-color: #51c4d3;
+  width: 220px;
+  padding: 0.5rem;
+  color: #f4f7f5;
+  font-weight: 600;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.exp-date, .edu-date {
+  display: inline;
+}
+
+.positionTag {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+.companyTag {
+  font-weight: 600;
+}
+
+.detailTag, .aboutText {
+  width: 85%;
+  text-align: justify;
+}
+
+.exp-text {
+  /* margin-bottom: 8px; */
+}
+
+
+
+button {
+  background-color: #126e82;
+  border: none;
+  color: #f4f7f5;
+  font-weight: 600;
+  cursor: pointer;
+
+}
+
+.edit-button-wrapper {
+  text-align: right;
+}
+
+.add-button-wrapper {
+
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+.add-button {
+  width: 120px;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.edit-button {
+  padding: 5px;
+  border-radius: 3px;
+}
+/* -------- */
+
+
+.generalSection {
+  text-align: center;
+}
+
+.save-button-wrapper,
+.save-and-delete-button-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.save-button, .delete-button {
+  padding: 5px;
+  border-radius: 3px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+#about-input {
+  width: 500px;
+  height: 50px;
+}
+
+textarea,
+input[type] {
+    height: 25px;
+    border: none;
+    background-color: #f4f7f5;
+    margin: 5px;
+}
+
+.print-button-wrapper {
+  width: 100%;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.print-button {
+  width: 150px;
+  padding: 5px;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
