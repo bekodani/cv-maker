@@ -73,8 +73,8 @@ const App = () => {
                   Add
                 </button>
               </div>
-
-            <div className="desing-line"></div> </NoPrint>
+              </NoPrint>
+            <div className="desing-line"></div> 
           </div>
 
 
